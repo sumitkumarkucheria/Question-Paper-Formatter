@@ -1,0 +1,9 @@
+Flask>=2.3
+python-docx>=1.1
+waitress>=3.0     # small production server used to run the app on your LAN
+
+# Optional, for PDF export using an existing MS Word install (Windows/Mac
+# only). If you'd rather use LibreOffice instead, you can skip these two
+# and just install LibreOffice on your system.
+docx2pdf>=0.1.8
+pywin32; sys_platform == "win32"
