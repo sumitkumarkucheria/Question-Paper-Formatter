@@ -1,5 +1,7 @@
 # Question Paper Generator
-It does not generate questions but format them in clean way!
+It does not generate questions but format them in cleaner way!
+
+
 A standalone Python/Flask web app that builds a school question paper
 (Word `.docx` + `.pdf`) in the same visual style as a bordered, sectioned
 exam template: blue page border, centered header block (school name /
