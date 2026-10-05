@@ -1,0 +1,47 @@
+Teacher Guide: Generating a Question Paper
+
+Run python app.py on the PC and run ipaddress:5000 in any browser (Chrome/edge/firefox any one) like http://192.168.1.20:5000. 
+
+(http://use your pc ip:5000) 
+if you dont know ip, then open command prompt and write ipconfig
+
+the address infront of ipv4: is your ip address, it mostly looks like 192.168.1.xxx 
+
+Making a paper (about 10 minutes)
+
+Step 1. Exam Details
+
+Fill in the exam type (e.g. Half Yearly Examination), subject, grade, maximum marks, date and time.
+Click Next.
+
+Step 2. Instructions
+
+Skip this for now. The instructions are generated automatically after you add your questions. Click Next.
+
+Step 3. Marking Scheme
+
+Click Add Section for each part of the paper (A, B, C...).
+For each section, choose the type (MCQ, short answer, long answer, case study), the number of questions, and the marks per question.
+Check the banner at the top. It must show your planned total equals the Maximum Marks. If not, fix the numbers or use the balance button.
+Click Next.
+
+Step 4. Questions
+
+Type each question.
+For MCQs, fill in the four options.
+Tick code block for Python code, so it prints in a bold code font.
+Use the buttons to add sub-parts (a, b, c), an "OR" alternate question, an image or a table.
+Do not leave any question empty. The paper will not generate.
+Click Next.
+
+Step 5. Review & Generate
+
+Go back to Step 2 and click the auto-generate button for instructions. Read them and edit anything that doesn't fit your subject.
+Return to Review and click Generate.
+Wait 10 to 30 seconds, then download the Word file (to edit) or the PDF (to print).
+Things to know
+Don't refresh the page. Your work is not saved and you will lose everything.
+Check the instructions line by line. The auto-text always says programming questions must be answered in Python. Delete that line for non-programming subjects.
+Always open the PDF before printing. Check the page border, the logo, and that no question is cut off at a page break.
+Don't change the school logo unless the admin asks you to. It changes for every teacher.
+If Generate shows an error, the PDF converter is probably not installed on the server.
